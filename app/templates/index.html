@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diante's Top 5</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+</head>
+<body>
+    {% block css %}
+    <style>
+        body {
+            margin: 50px
+        }
+        .main_title {
+            text-align: center;
+        }
+
+        .main_subtitle {
+            text-align: center;
+            margin-bottom: 200px;
+        }
+
+        .card img {
+            height: 450px;
+        }
+
+        .card-title {
+            padding-top: 10rem;
+            text-align: center;
+            color: white;
+            font-size: 3rem;
+        }
+        
+        a {
+            color:white;
+        }
+
+        a:hover {
+            color: lightblue;
+        }
+
+    </style>
+    {% endblock %}
+    <h1 class="main_title">Diante's Top Five</h1>
+    <h2 class="main_subtitle">Select One</h2>
+    <div class="row row-cols-1 row-cols-md-5">
+        <div class="col">
+          <div class="card" class="top_artists_card">
+            <img src="https://imageio.forbes.com/specials-images/imageserve/62a0f58bf97f8613a5ccd11a/0x0.jpg?format=jpg&width=1200" class="card-img-fluid" alt="hi">
+            <div class="card-img-overlay">
+              <h5 class="card-title"><a href='/fav_artists'>Artists</a></h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card" class="top_artists_card">
+              <img src="" class="card-img-fluid" alt="">
+              <div class="card-img-overlay">
+                <h5 class="card-title" style="color:black;">TBD</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" class="top_artists_card">
+              <img src="" class="card-img-fluid" alt="">
+              <div class="card-img-overlay">
+                <h5 class="card-title" style="color:black;">TBD</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" class="top_artists_card">
+              <img src="" class="card-img-fluid" alt="">
+              <div class="card-img-overlay">
+                <h5 class="card-title" style="color:black;">TBD</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" class="top_artists_card">
+              <img src="" class="card-img-fluid" alt="">
+              <div class="card-img-overlay">
+                <h5 class="card-title" style="color:black;">TBD</h5>
+              </div>
+            </div>
+          </div>
+      </div>
+
+</body>
+</html>
